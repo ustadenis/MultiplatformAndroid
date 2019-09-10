@@ -1,0 +1,4 @@
+include ':app', ':common'
+rootProject.name='MultiplatformApp'
+project(':common').projectDir = new File(settingsDir, '../../common/MultiplatformApp/common')
+enableFeaturePreview('GRADLE_METADATA')
