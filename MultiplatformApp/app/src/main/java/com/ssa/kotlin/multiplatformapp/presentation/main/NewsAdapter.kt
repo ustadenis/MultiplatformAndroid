@@ -1,5 +1,5 @@
 package com.ssa.kotlin.multiplatformapp.presentation.main
-
+/*
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -45,4 +45,4 @@ class NewsAdapter : RecyclerView.Adapter<ViewHolder>() {
             }
         }
     }
-}
+}*/

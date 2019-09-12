@@ -1,5 +1,6 @@
 package com.ssa.kotlin.multiplatformapp.data.repository
 
+/*
 import com.ssa.kotlin.multiplatformapp.data.api.NewsApi
 import com.ssa.kotlin.multiplatformapp.data.api.mappers.NewsMapper
 import kotlinx.coroutines.runBlocking
@@ -17,4 +18,4 @@ class NewsRepository(
         }
     }
 
-}
+}*/

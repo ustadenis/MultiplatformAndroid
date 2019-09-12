@@ -5,13 +5,13 @@ import com.google.gson.GsonBuilder
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import com.ssa.kotlin.multiplatformapp.data.api.INewsApi
 import com.ssa.kotlin.multiplatformapp.data.api.NewsApi
-import com.ssa.kotlin.multiplatformapp.data.api.mappers.NewsMapper
+/*import com.ssa.kotlin.multiplatformapp.data.api.mappers.NewsMapper
 import com.ssa.kotlin.multiplatformapp.data.repository.NewsRepository
-import interactor.NewsInteractor
+import interactor.NewsInteractor*/
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import org.koin.dsl.module
-import repository.INewsRepository
+/*import repository.INewsRepository*/
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import ssa.com.data.api.converter.UnitConverterFactory
@@ -34,15 +34,15 @@ private val viewModelsModule = module {
 }
 
 private val interactorModule = module {
-    factory { NewsInteractor(get()) }
+/*    factory { NewsInteractor(get()) }*/
 }
 
 private val repositoryModule = module {
-    single { NewsRepository(get(), get()) as INewsRepository }
+/*    single { NewsRepository(get(), get()) as INewsRepository }*/
 }
 
 private val mapperModule = module {
-    factory { NewsMapper() }
+/*    factory { NewsMapper() }*/
 }
 
 val modules = listOf(
